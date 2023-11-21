@@ -35,9 +35,6 @@ while True:
         for i in word_game:
             if i != "\n":
                 word_spell.append(i.upper()) # separa a palavra por letras
-            
-        with open("black_file.txt", "a") as file:
-            file.write(word_game)  # exclui a palvra escolhida da proxima vez
 
         print("\nDigite ? para ver as regras!")
 
@@ -87,6 +84,8 @@ while True:
                 if player_choise == word_spell: # sistema de vitoria - quando a palavra do jogador e a escolhida são iguais ativa a condição
                     warning("\nYou WIN!!",92)
                     input("\nDigite enter para um novo jogo.")
+                    with open("black_file.txt", "a") as file:
+                        file.write(word_game)  # exclui a palvra escolhida da proxima vez
                     os.system('cls')
                     break
                 elif counter == 5: # caso o contador de a tntativa limite, o jogo acaba em derrota (e puxa o seu elo para baixo)
