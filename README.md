@@ -13,7 +13,7 @@
 
 Se a variavel "words" retornar com uma palavra ela passara para uma lista de words_spell, ela escreve a palavra escolhida para o arquivo "black_file.txt" e separa a palavra e pede o input do jogador. 
 
-O jogador pode pedir as regras do jogo digitando um "?" as regras do jogo serão mostradas para o jogador com um print. Caso o jogador escrever algo que não seja uma letra do alfabeto ou palavras de mais de 5 letras sera puxado o seu respectivo exception.
+O jogador pode pedir as regras do jogo digitando um "?", as regras do jogo serão mostradas para o jogador com um print. Caso o jogador escrever algo que não seja uma letra do alfabeto ou palavras de mais de 5 letras sera puxado o seu respectivo exception.
 
 O codigo irá ver a resposta do jogador e adicionará a uma lista de sugestões para depois poder ser analisado e potencialmente ser adicionado a lista de palavras possiveis no jogo. Além disso, a resposta do jogador pasará por uma confirmação usando o word_spell para checar se cada letra está em seu devido lugar, se estiver ela vira-ra verde, se ela estiver apenas na palavra mas em um lugar errado ela vira-ra amarela e se não estiver ela sera denominada pela cor preta.
 
