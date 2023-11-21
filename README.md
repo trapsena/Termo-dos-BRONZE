@@ -20,9 +20,9 @@ Se a variavel "words" retornar com uma palavra ela passara soletrando para uma l
 
 -"**O jogo**": O jogador pode pedir as regras do jogo digitando um "?", as regras do jogo serão mostradas para o jogador com um print. Caso o jogador escrever algo que não seja uma letra do alfabeto ou palavras de mais de 5 letras sera puxado o seu respectivo exception.
 
-O codigo irá ver a resposta do jogador e primeiro ira separar a sua palavra em uma lista para termos a suas posições de letras.Essa palavra tambem sera adicionado a uma lista de sugestões para depois poder ser analisado e potencialmente ser adicionado a lista de palavras possiveis no jogo. 
+O codigo irá ver a resposta do jogador e primeiro ira separar a sua palavra em uma lista para termos a suas posições de letras. Essa palavra tambem sera adicionado a uma lista de sugestões para depois poder ser analisado e potencialmente ser adicionado a lista de palavras possiveis no jogo. 
 
-Após isso a resposta do jogador pasará por uma confirmação usando o word_spell para checar se cada letra está em seu devido lugar. Se uma letra estiver na posição exata da palavra escolhida para a partida ela irá ser denominada verde,se a letra estiver na palavra mas em um lugar errado ela sera denominada amarela e se a palavra não estiver na palavra escolhida pelo jogo ela sera denominada pela cor preta.
+Após isso a resposta do jogador pasará por uma confirmação usando o word_spell para checar se cada letra está em seu devido lugar. Se uma letra estiver na posição exata da palavra escolhida para a partida ela irá ser denominada verde, se a letra estiver na palavra mas em um lugar errado ela sera denominada amarela e se a palavra não estiver na palavra escolhida pelo jogo ela sera denominada pela cor preta.
 
 O jogo irá terminará assim que o jogador conseguir acertar a palavra antes de cinco tentativas ou falhar tentando.
 
